@@ -1,0 +1,213 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1396px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .dashboard-area .banner-left .bg-img {
+    margin-bottom: -180px;
+    margin-left: -0;
+    margin-top: -0;
+    max-width: 100%;
+  }
+  .mint-area .banner-right .banner-img {
+    margin-top: 0;
+    margin-left: -0;
+    max-width: 100%;
+  }
+  .mint-area .nft-wallet {
+    margin-top: -280px;
+  }
+  .stake-area .content-right .single-slider {
+    padding: 40px 20px 40px 25px;
+  }
+  .stake-area
+    .content-right
+    .single-slider
+    .slider-body
+    .view-contract
+    .total-amount {
+    padding-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .dashboard-area .wallet-widget .nft-collection > div img {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .dashboard-area .banner-left .bg-img {
+    max-width: 600px;
+  }
+  .dashboard-area .banner-left,
+  .dashboard-area .banner-right,
+  .stake-area .banner-left,
+  .stake-area .banner-right,
+  .mint-area .banner-left,
+  .mint-area .banner-right {
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 1;
+  }
+  img {
+    max-width: 100%;
+  }
+  .mint-area .nft-wallet {
+    width: 523px;
+    margin-top: -0;
+  }
+  .social-icon {
+    margin: auto;
+  }
+  .dashboard-area .contact-list ul li {
+    display: flex;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    padding: 0;
+  }
+  .navbar .nav-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+  }
+  .navbar .nav-action .act-2 {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .dashboard-area .banner-left .bg-img {
+    max-width: 100%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .mint-area .nft-wallet {
+    width: 100%;
+  }
+}
+
+@media (max-width: 565px) {
+  .dashboard-area .minting-timeframe .mint-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .dashboard-area .minting-timeframe .mint-date h1 {
+    line-height: 45px;
+    margin-bottom: -5px;
+  }
+  .dashboard-area .token-statistics {
+    flex-direction: column;
+  }
+  .dashboard-area .active-player table {
+    width: 400px;
+  }
+  .responsive-table {
+    overflow-x: scroll;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: -20px;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: -20px;
+  }
+
+  .stake-area .wallet-balance {
+    padding: 12px 20px;
+  }
+  .navbar {
+    padding-top: 18px;
+    padding-right: 25px;
+  }
+  .stake-area .banner-left h1 {
+    margin-top: 25px;
+    font-size: 38px !important;
+    line-height: 45px;
+  }
+  .mint-area .holder-report {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    padding: 6px 14px;
+  }
+  .mint-area .banner-left h1 {
+    font-size: 38px;
+    line-height: 45px;
+    margin-top: 35px;
+  }
+  .dashboard-area .mint-scale .progress-container {
+    width: 100%;
+  }
+  .dashboard-area .mint-scale {
+    width: 100%;
+  }
+  .dashboard-area .banner-left .bg-img {
+    margin-bottom: -100px;
+  }
+  .dashboard-area .contact-list ul li {
+    display: block;
+  }
+  .dashboard-area .wallet-widget .nft-collection > div img {
+    max-width: 65px;
+  }
+  .dashboard-area .banner-left,
+  .dashboard-area .banner-right,
+  .stake-area .banner-left,
+  .stake-area .banner-right,
+  .mint-area .banner-left,
+  .mint-area .banner-right {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .dashboard-area .wallet-widget {
+    padding: 4px 15px;
+    padding-bottom: 15px;
+  }
+  .dashboard-area .minting-timeframe {
+    padding: 4px 15px;
+  }
+  .mint-area .banner-right .banner-img {
+    margin-top: 50px;
+  }
+  .stake-area .wallet-balance .single-nft-price span {
+    font-size: 18px;
+  }
+  .stake-area
+    .content-right
+    .single-slider
+    .slider-body
+    .view-contract
+    .contract-btn {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
